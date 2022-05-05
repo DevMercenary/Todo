@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Connections>
+  <connection>http://localhost:63847/chathub</connection>
+  <connection>https://localhost:44389/chathub</connection>
+</Connections>
