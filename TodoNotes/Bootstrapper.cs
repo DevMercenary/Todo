@@ -2,9 +2,7 @@
 using Prism.Ioc;
 
 using System.Windows;
-using HandyControl.Tools;
 using Prism.Modularity;
-using TodoNotes.Views;
 using TodoNotes.Views.Window;
 
 namespace TodoNotes

@@ -10,17 +10,17 @@
     </UserControl.DataContext>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"></RowDefinition>
-            <RowDefinition Height="Auto"></RowDefinition>
-            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Orientation="Horizontal">
-            <Label Content="Имя" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64"/>
-            <TextBox x:Name ="NickBox" HorizontalAlignment="Left" Width="256"  TextWrapping="Wrap" Text="{Binding Nickname}" VerticalAlignment="Top" IsEnabled="{Binding IsOffline}"/>
-            <Label Content="Сервер" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="170" ItemsSource="{Binding ServerList}" SelectedItem="{Binding SelectedServer}" IsEnabled="{Binding IsOffline}" />
-            <Button Content="{Binding ConnectionButtonText}" HorizontalAlignment="Left" VerticalAlignment="Top" Command="{Binding ConnectionManager}"/>
-            <Label x:Name ="ConnectionStatus" Content="{Binding Status}" HorizontalAlignment="Left"  VerticalAlignment="Top"  Foreground="{Binding StatusColor}" FontWeight="Bold"/>
+            <Label Content="Имя" Margin="0,0,20,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64"/>
+            <TextBox x:Name ="NickBox" Margin="0,0,20,0" HorizontalAlignment="Left" Width="256"  TextWrapping="Wrap" Text="{Binding Nickname}" VerticalAlignment="Top" IsEnabled="{Binding IsOffline}"/>
+            <Label Content="Сервер" Margin="0,0,20,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <ComboBox HorizontalAlignment="Left" Margin="0,0,20,0" VerticalAlignment="Top" Width="170" ItemsSource="{Binding ServerList}" SelectedItem="{Binding SelectedServer}" IsEnabled="{Binding IsOffline}" />
+            <Button Content="{Binding ConnectionButtonText}" Margin="0,0,20,0" HorizontalAlignment="Left" VerticalAlignment="Top" Command="{Binding ConnectionManager}"/>
+            <Label x:Name ="ConnectionStatus" Content="{Binding Status}" Margin="40,0,0,0" Foreground="{Binding StatusColor}" FontWeight="Bold"/>
         </StackPanel>
         <hc:TransitioningContentControl Grid.Row="1">
             <WrapPanel>

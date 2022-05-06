@@ -32,12 +32,8 @@ public class SettingXml
         xd.Load("connections.xml");
 
         XmlNode connection = xd.CreateElement("connection");
-        connection.InnerText = "http://localhost:63847" + "/chathub";
+        connection.InnerText = "https://localhost:7167" + "/chathub";
         xd.DocumentElement?.AppendChild(connection);
-
-        XmlNode connection2 = xd.CreateElement("connection");
-        connection2.InnerText = "https://localhost:44389" + "/chathub";
-        xd.DocumentElement?.AppendChild(connection2);
         xd.Save("connections.xml");
     }
 

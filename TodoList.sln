@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32422.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoNotes", "TodoNotes\TodoNotes.csproj", "{CECA175E-99C7-4FA4-8EF9-32E7CFE28A24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoServer", "TodoServer\TodoServer.csproj", "{B56C8E35-6B60-4E30-A0A4-CB75F50A1A09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoShared", "TodoShared\TodoShared.csproj", "{380C9764-5A37-4EB1-9FED-1313293AC874}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +25,28 @@ Global
 		{CECA175E-99C7-4FA4-8EF9-32E7CFE28A24}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CECA175E-99C7-4FA4-8EF9-32E7CFE28A24}.Release|x64.ActiveCfg = Release|x64
 		{CECA175E-99C7-4FA4-8EF9-32E7CFE28A24}.Release|x64.Build.0 = Release|x64
+		{B56C8E35-6B60-4E30-A0A4-CB75F50A1A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56C8E35-6B60-4E30-A0A4-CB75F50A1A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56C8E35-6B60-4E30-A0A4-CB75F50A1A09}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B56C8E35-6B60-4E30-A0A4-CB75F50A1A09}.Debug|x64.Build.0 = Debug|Any CPU
+		{B56C8E35-6B60-4E30-A0A4-CB75F50A1A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56C8E35-6B60-4E30-A0A4-CB75F50A1A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56C8E35-6B60-4E30-A0A4-CB75F50A1A09}.Release|x64.ActiveCfg = Release|Any CPU
+		{B56C8E35-6B60-4E30-A0A4-CB75F50A1A09}.Release|x64.Build.0 = Release|Any CPU
+		{380C9764-5A37-4EB1-9FED-1313293AC874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380C9764-5A37-4EB1-9FED-1313293AC874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380C9764-5A37-4EB1-9FED-1313293AC874}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{380C9764-5A37-4EB1-9FED-1313293AC874}.Debug|x64.Build.0 = Debug|Any CPU
+		{380C9764-5A37-4EB1-9FED-1313293AC874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380C9764-5A37-4EB1-9FED-1313293AC874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380C9764-5A37-4EB1-9FED-1313293AC874}.Release|x64.ActiveCfg = Release|Any CPU
+		{380C9764-5A37-4EB1-9FED-1313293AC874}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AC310B5E-8D19-4287-A7F5-1DA959E0CC19}
 		RESX_NeutralResourcesLanguage = ru-RU
+		SolutionGuid = {AC310B5E-8D19-4287-A7F5-1DA959E0CC19}
 	EndGlobalSection
 EndGlobal

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace TodoNotes.Data
 {
-    public class Constants
+    public class Servers
     {
-        public const string ServerName = "***Server***";
+        public string Name { get; set; }
     }
 }

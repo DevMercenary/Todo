@@ -36,4 +36,7 @@
     <Folder Include="Services\" />
     <Folder Include="Infrastructure\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TodoShared\TodoShared.csproj" />
+  </ItemGroup>
 </Project>

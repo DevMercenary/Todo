@@ -1,21 +1,18 @@
-﻿using Prism.Mvvm;
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
-using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Windows.Media;
 using HandyControl.Controls;
-using HandyControl.Tools.Command;
 using Microsoft.AspNetCore.SignalR.Client;
 using Prism.Commands;
 using TodoNotes.Data;
+using TodoShared;
 
 namespace TodoNotes.ViewModels
 {

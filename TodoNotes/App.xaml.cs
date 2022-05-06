@@ -2,7 +2,6 @@
 
 using System.Windows;
 using System.Windows.Media;
-using HandyControl.Tools;
 
 namespace TodoNotes
 {
